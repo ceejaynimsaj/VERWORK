@@ -1,0 +1,227 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <div class="row">
+  <!-- First card set -->
+  <div class="col-12 col-md-6 col-lg-4 order-1 order-md-1">
+    <div class="card shadow-sm card-equal-height ml-4">
+      <h6 class="m-0 font-weight-bold p-3 text-center text-color">
+        Progress Summary
+      </h6>
+      <div class="d-flex p-2">
+        <div class="card flex-fill m-2 p-2 w-100 h-60 bg-color-cards">
+          <div class="d-flex flex-row justify-content-around">
+            <p class="d-flex align-items-center text-font">Total Sales</p>
+            <p class="font-weight-bold number-font-size">10</p>
+            <div>
+              <img
+                src="./images/thermomix icon (1).png"
+                class="icon-size"
+                style="margin-top: 5px"
+              />
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-around">
+            <p class="d-flex align-items-center text-font">
+              Qualified<br />Recruits
+            </p>
+            <p class="font-weight-bold number-font-size">2</p>
+            <i
+              class="bi bi-person-plus number-font-size icon-color"
+              style="margin-top: 6px"
+            ></i>
+          </div>
+        </div>
+        <div class="card flex-fill m-2 p-2 w-100 bg-color-cards">
+          <div class="d-flex flex-row justify-content-around">
+            <p class="d-flex align-items-center text-font">Base Commission</p>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <p
+              class="font-weight-bold number-font-size justify-content-center m-2"
+            >
+              $2,000
+            </p>
+            <i class="bi bi bi-coin number-font-size icon-color ml-1 mt-3"></i>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex p-2">
+        <div class="card flex-fill m-1 p-2 w-100 bg-color-cards">
+          <div class="d-flex flex-row justify-content-around">
+            <p class="d-flex align-items-center text-font">Monthly Bonus</p>
+          </div>
+          <div class="d-flex flex-row justify-content-around">
+            <p class="font-weight-bold number-font-size">$900</p>
+            <i
+              class="bi bi-calendar-check number-font-size icon-color mt-2"
+            ></i>
+          </div>
+        </div>
+        <div class="card flex-fill m-1 p-2 w-100 bg-color-cards">
+          <div class="d-flex flex-row justify-content-around">
+            <p class="d-flex align-items-center text-font">Recruitment Bonus</p>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <p
+              class="font-weight-bold number-font-size justify-content-center m-0"
+            >
+              $400
+            </p>
+            <i
+              class="bi bi bi-cash-coin number-font-size icon-color justify-content-around ml-4 mt-3"
+            ></i>
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Basic example"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar" style="width: 25%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ml-4 mt-3">
+      <div class="card h-100 shadow-sm justify-content-around">
+        <p class="font-weight-bold p-2 text-center text-color">
+          Sales and Recruits Progress
+        </p>
+        <div
+          class="d-flex justify-content-center align-items-center"
+          style="height: 100%"
+        >
+          <div class="position-relative" style="width: 90%">
+            <div
+              class="progress"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="60"
+            >
+              <div
+                class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                style="width: 40%"
+              ></div>
+              <i
+                class="bi bi-coin position-absolute"
+                style="
+                  color: #e09509;
+                  font-size: 2rem;
+                  top: 50%;
+                  left: 40%;
+                  transform: translate(-50%, -50%);
+                  animation: flip 2s linear infinite;
+                "
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-row justify-content-around">
+          <p class="d-flex justify-content-center text-font">
+            Total Sales: <strong>&nbsp;&nbsp;10</strong>
+          </p>
+          <p class="d-flex justify-content-center text-font">
+            Qualified Recruits: <strong>&nbsp;&nbsp;2</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 order-2 order-md-2">
+    <div
+      class="card h-100 shadow-sm card-equal-height bg-success text-white text-center p-3"
+    >
+      <h6 class="m-0">Progress Update</h6>
+      <h6
+        class="m-0 mt-2 text-color-congrats"
+        style="text-shadow: 2px 2px 4px #424141"
+      >
+        Congratulations!
+      </h6>
+      <div class="d-flex justify-content-center my-3">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/15575/15575237.png"
+          class="image-size"
+        />
+      </div>
+      <h6
+        class="m-0"
+        style="text-shadow: 2px 2px 4px #424141; color: rgb(233, 208, 65)"
+      >
+        Your total income now stands at
+      </h6>
+      <h4
+        class="m-0 mt-2 font-weight-bold"
+        style="text-shadow: 2px 2px 4px #424141; font-size: 3rem"
+      >
+        $9,700
+      </h4>
+      <p
+        class="mt-2 text-color-congrats font-weight-bold"
+        style="text-shadow: 2px 2px 4px #424141; font-size: 1rem"
+      >
+        Keep the sales rolling in!
+      </p>
+      <p class="font-weight-bold">View Details</p>
+      <p class="text-white-100" style="font-size: 0.8rem">
+        *Shows estimated commission (excludes promotional commissions)
+      </p>
+    </div>
+  </div>
+  <!-- Second card set -->
+  <div class="col-12 col-md-6 col-lg-4 order-3 order-md-3">
+    <div class="card h-100 shadow-sm card-equal-height mr-3">
+      <h6 class="m-0 p-2 text-center text-color">Monthly Bonus Progress</h6>
+      <p class="text-center salestext text-success">
+        Let's hit your next target by securing 2 Sales. Let's go!
+      </p>
+      <div class="tree-container">
+        <div class="tree">
+          <div class="level">
+            <div class="node">$3,000</div>
+          </div>
+          <div class="level">
+            <div class="node">$2,500</div>
+            <div class="node">$1,800</div>
+          </div>
+          <div class="level">
+            <div class="node">$1,500</div>
+            <div class="node active">
+              $1,200
+              <img src="images/greenarrow.png" class="arrow" />
+            </div>
+          </div>
+          <div class="level">
+            <div class="xnode bg-success">$900</div>
+            <div class="xnode bg-success">$600</div>
+          </div>
+          <div class="level">
+            <div class="xnode bg-success">$300</div>
+          </div>
+        </div>
+        <p class="text-center mt-3">
+          Monthly Bonus:
+          <span class="text-warning-color">$900</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</html>

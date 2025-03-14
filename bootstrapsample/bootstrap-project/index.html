@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Project</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row min-vh-100">
+        <nav
+          id="sidebar"
+          class="col-12 col-md-3 col-lg-2 d-md-block bg-light sidebar"
+        >
+          <div class="sidebar-sticky text-center py-2">
+            <img
+              src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5iunkgbf7FrMWAQuwHmmPc5yizNg1emlItcV2dawwr2hDfJkC"
+              class="img-fluid rounded-circle mb-1 profile-image"
+              alt="Profile Picture"
+            />
+            <h5 class="mb-0 text-light mt-3">Devon Lane</h5>
+            <small class="text-light">Team Leader</small>
+            <hr />
+            <ul class="nav flex-column text-left">
+              <li class="nav-item text-light">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-kanban"></i> &nbsp;&nbsp;&nbsp;Dashboard
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-tree"></i> &nbsp;&nbsp;&nbsp;Tree Viewer
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-gift"></i> &nbsp;&nbsp;&nbsp;Promotions
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-award"></i> &nbsp;&nbsp;&nbsp;Training
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-graph-up-arrow"></i> &nbsp;&nbsp;&nbsp;Reports
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-lightbulb"></i> &nbsp;&nbsp;&nbsp;Tool Tips
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-info-circle"></i> &nbsp;&nbsp;&nbsp;About
+                </a>
+                <br />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                  <i class="bi bi-headset"></i> &nbsp;&nbsp;&nbsp;Support
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="col-12 col-md-9 col-lg-10 p-5">
+          <div class="card pb-lg-3 pb-sm-0 shadow-sm card-equal-height">
+            <h5 class="font-weight-bold mt-3 ml-3">New Commission Progress</h5>
+            <div class="nav nav-pills nav-justified pt-0 pr-5 pb-3 pl-5">
+              <a
+                href="#"
+                id="personal-commission"
+                class="nav-link active bg-success text-white commission-tab"
+                >Personal Commission</a
+              >
+              <a
+                href="#"
+                id="team-commission"
+                class="nav-link bg-secondary text-white bg-opacity-secondary commission-tab"
+                >Team Commission</a
+              >
+            </div>
+            <div id="content"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
